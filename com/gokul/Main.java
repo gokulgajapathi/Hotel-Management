@@ -102,7 +102,6 @@ class Hotel
         
         System.out.print("Enter contact number: ");
         contact=sc.next();
-        System.out.println(contact.length());
         
         while((!(contact.length() == 10)) & (!contact.equals(48) || !contact.equals(49) || !contact.equals(50) || !contact.equals(51) ||
         		!contact.equals(52) || !contact.equals(53) || !contact.equals(54) || !contact.equals(55) || !contact.equals(56) ||
